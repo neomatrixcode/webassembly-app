@@ -1,11 +1,11 @@
 {
-  "name": "rusty-react",
+  "name": "Gines",
   "version": "1.0.0",
   "description": "A skeleton app showing how to use Rust to leverage Wasm in your React app.",
   "main": "src/index.jsx",
   "scripts": {
     "build:wasm": "cargo build --target wasm32-unknown-unknown",
-    "build:bindgen": "wasm-bindgen target/wasm32-unknown-unknown/debug/rusty_react.wasm --out-dir build",
+    "build:bindgen": "wasm-bindgen target/wasm32-unknown-unknown/debug/Gines.wasm --out-dir build",
     "build": "npm run build:wasm && npm run build:bindgen && npx webpack",
     "dev": "webpack server"
   },

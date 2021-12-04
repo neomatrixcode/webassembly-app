@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
-const wasm = import("../build/rusty_react");
+const wasm = import("../build/Gines");
 
 wasm.then(m => {
   const App = () => {
