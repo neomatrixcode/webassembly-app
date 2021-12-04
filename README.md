@@ -1,19 +1,22 @@
 # Gines
 
 
-## Compile Rust
+## Install packages Rust/nodeJS
 
 ```bash
-cd wasm
-cargo install wasm-pack
-wasm-pack build --out-dir ../wasm-build
+cargo install -f wasm-bindgen-cli
+npm i
 ```
 
-## Run React js
+## Compile project
 
 ```bash
-cd react-client
-npm run eject
-npm install
-npm start
+npm run build
 ```
+
+## Execute project
+
+```bash
+npm run dev
+```
+
