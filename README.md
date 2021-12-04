@@ -1,5 +1,9 @@
 # Gines
 
+```bash
+git clone https://github.com/neomatrixcode/Gines.git
+cd Gines
+```
 
 ## Install packages Rust/nodeJS
 
