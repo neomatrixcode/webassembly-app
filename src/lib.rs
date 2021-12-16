@@ -1,21 +1,6 @@
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
-extern "C" {
-        fn alert(s: &str);
-}
-
-#[wasm_bindgen]
-pub fn big_computation() {
-        alert("Big computation in Rust");
-}
-
-#[wasm_bindgen]
-pub fn welcome(name: &str) {
-       alert(&format!("Hello {}, from Rust!", name));
-}
-
-#[wasm_bindgen]
 pub fn add_two_ints(a: u32, b: u32) -> u32 {
    a + b
 }

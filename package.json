@@ -10,7 +10,6 @@
     "dev": "webpack server"
   },
   "keywords": [],
-  "author": "Josh Finnie <josh@jfin.us",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
